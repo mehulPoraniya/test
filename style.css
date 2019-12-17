@@ -13,3 +13,24 @@ body  p{
 	color: white;
 	text-align: center;
 }
+.sidebar.fixed {
+    position: fixed;
+    left: 0;
+}
+.sidebar {
+    background: #fff;
+    width: 80px;
+    height: 50px;
+    display: table;
+}
+.sidebar a {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    font-weight: 900;
+}
+.content {
+    margin: 20 20%;
+}
